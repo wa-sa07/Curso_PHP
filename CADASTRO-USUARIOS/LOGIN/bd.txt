@@ -1,0 +1,18 @@
+<?php
+    // Definir as variáveis de conexão
+    $dbHost = "localhost";
+    $dbUser = "root";
+    $dbPassword = '';  // Insira sua senha aqui ou deixe vazia se não houver senha
+    $dbName = 'formulario_teste';
+    $dbPort = 3307;  // Porta correta para MySQL (3307 conforme seu arquivo de configuração)
+
+    // Conectar ao banco de dados MySQL
+    $conexao = new mysqli($dbHost, $dbUser, $dbPassword, $dbName, $dbPort);
+
+    // Verificar a conexão
+    //if ($conn->connect_error) {
+    //    die("Falha na conexão: " . $conn->connect_error);
+    //} else {
+    //    echo "Conexão efetuada com sucesso!";
+   // }
+?>
