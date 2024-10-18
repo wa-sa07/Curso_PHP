@@ -14,5 +14,7 @@
         die("Falha na conexão: " . $conexao->connect_error);
     } else {
         echo "Conexão efetuada com sucesso!";
+        print_r('<br>');
+
     }
 ?>
